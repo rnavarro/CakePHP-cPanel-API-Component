@@ -4,11 +4,14 @@ CakePHP cPanel API Component v0.1 Alpha
 Description
 ===========
 A CakePHP component to interface with the cPanel API
+
+Based almost entirely on Miquel's php api, modified a bit for use with CakePHP
+http://forums.cpanel.net/f42/xmlapi-php-class-111897-p6.html#post563997
  
 Requirements
 ============
 	* PHP5
-	* curlPHP Extensions
+	* curl PHP Extensions
 	* OS/Server Independent
  
 Install
