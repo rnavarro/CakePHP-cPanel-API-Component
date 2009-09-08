@@ -1,0 +1,26 @@
+CakePHP cPanel API Component v0.1 Alpha
+***************************************
+
+Description
+===========
+A CakePHP component to interface with the cPanel API
+ 
+Requirements
+============
+	* PHP5
+	* curlPHP Extensions
+	* OS/Server Independent
+ 
+Install
+=======
+	1. Upload to your CakePHP app/controller/components directory
+	2. Check out the example usage files
+	3. Have a nice day!
+ 
+Contact
+=======
+Robert Navarro <rnavarro [at] phiivo.com>
+
+Support
+=======
+https://phiivo.lighthouseapp.com/projects/37016-cakephp-cpanel-api/overview
