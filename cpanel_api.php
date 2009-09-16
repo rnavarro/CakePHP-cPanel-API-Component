@@ -156,6 +156,11 @@ class CpanelApiComponent extends Object {
 				return FALSE;
 			}
 			
+			if(stristr($result, '404 Not Found') == TRUE) {
+				$this->error = 'cPanel API 404 Error';
+				return FALSE;
+			}
+			
 			$this->error = 'Generic Error';
 			return FALSE;
 		}
@@ -310,7 +315,7 @@ class CpanelApiComponent extends Object {
 
 	// This API function will generate a list of an account's attributes, such as it's IP address and partition.
 	// $username = string
-	function accoutsummary($username) {
+	function accountsummary($username) {
 		if (!isset($username)) {
 			error_log("accountsummary requires that an username is passed to it");
 			return FALSE;
